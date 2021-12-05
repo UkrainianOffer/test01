@@ -136,21 +136,21 @@
 //     console.log(i);
 //     i += 1;
 // }
-​
+// ​
 // let i = 0;
 // do {
 //     console.log(i);
 //     i += 1;
 // } while (i < 10);
-​
+// ​
 // let password = "";
-​
+// ​
 // do {
 //   password = prompt("Введите пароль длиннее 4-х символов", "");
 // } while (password.length < 5);
-​
+// ​
 // console.log("Ввели пароль: ", password);
-​
+// ​
 // for (let i = 0; i <= 10; i+=1) {
 //     console.log(i);
 // }
@@ -301,8 +301,8 @@
 //     [1, 9, 8, 4],
 //     'test'
 // ];
-// ​
-// //console.log(arr[1][2][0]);
+​
+//console.log(arr[1][2][0]);
 // ​
 // for (const item of arr) {
 //     if (typeof item === 'object') {
