@@ -316,3 +316,43 @@
 // }
 // ​
 // console.log(arr);
+// ******PEBEPC*****
+// Write a function that reverse an integer number. You can't use any array methods, besides push.
+// reverseNumber() returns 54321
+// function reverseNumber(number) {
+//   let revStr = '';
+
+//   const newString = String(number);
+//   if (number > 0) {
+//     for (let i = newString.length - 1; i >= 0; i -= 1) {
+//       revStr += newString[i];
+//       console.log(revStr);
+//     }
+//     return Number(revStr);
+//   } else {
+//     for (let i = newString.length - 1; i >= 1; i -= 1) {
+//       revStr += newString[i];
+//       console.log(revStr);
+//     }
+//     return Number(revStr) * -1;
+//   }
+// }
+
+// console.log(reverseNumber(-12345));
+// ****************************************
+// function makeListFromRange(array) {
+//   let newArr = [];
+//   let secondArr = [];
+//   if (array[0] > array[1]) {
+//     newArr = [array[1], array[0]];
+//   } else {
+//     newArr = array;
+//   }
+//   for (let i = newArr[0]; i <= newArr[1]; i++) {
+//     secondArr.push(i);
+//     // console.log(newArr);
+//   }
+//   return secondArr;
+// }
+// console.log(makeListFromRange([2, 7]));
+// console.log(makeListFromRange([8, 5]));
